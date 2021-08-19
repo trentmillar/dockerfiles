@@ -3,7 +3,7 @@
 Uses,
 - CI|CD pipelines to run sentinel tests, terraform commands or AZ CLI commands
 - Run interactively (-it) and mount (-v) your sentinal or terraform code
-    - `docker run -v /Users/tmillar/dev/repo/my-project:/my-project -w /my-project -it terraform-sentinel-az-tools`
+    - `docker run -v /Users/tmillar/dev/repo/my-project:/my-project -w /my-project -it eatatjoes/terraform-sentinel-az-tools:latest`
     - `$ sentinel test ./sentinel`
 
 Contains 
